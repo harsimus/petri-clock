@@ -1,8 +1,10 @@
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(500, 500);
+    noLoop();
   }
   
-  function draw() {
+function draw() {
     background(220);
-    ellipse(50,50,80,80);
+    ellipse(250,250,250,250);
+    ellipse(Math.random() * 250,Math.random() * 250,50,50);
   }
